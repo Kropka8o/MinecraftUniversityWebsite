@@ -5,7 +5,8 @@
 
 .wrapper {
     max-width: 70%;
-    margin: 0 auto;
+    margin: 20px auto;
+    /* margin-top: 20px; */
 }
 
 .header-nav {
@@ -30,6 +31,26 @@
     color: #000000;
 }
 
+/* Not yet intergraded since its a want, not a need.  */
+
+/* .header-nav a:active {
+    background-color: #83f28f;
+    color: #000000;
+} */
+.drop-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+}
+
+.drop-text {
+    max-width: 60%;
+}
+
+.drop-text h1 {
+    margin-bottom: 20px;
+}
+
 .footer {
     background-color: #008a0e;
     color: #ffffff;
@@ -43,9 +64,3 @@
 .footer p {
     margin-right: 20px;
 }
-/* Not yet intergraded since its a want, not a need.  */
-
-/* .header-nav a:active {
-    background-color: #83f28f;
-    color: #000000;
-} */
