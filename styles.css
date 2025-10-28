@@ -51,6 +51,29 @@
     margin-bottom: 20px;
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    width: 100%;
+
+}
+
+form input, textarea {
+    width: 100%;
+}
+
+.form-group button {
+    align-self: flex-end;
+    
+}
+
 .footer {
     background-color: #008a0e;
     color: #ffffff;
