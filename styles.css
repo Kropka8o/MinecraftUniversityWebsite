@@ -30,6 +30,19 @@
     color: #000000;
 }
 
+.footer {
+    background-color: #008a0e;
+    color: #ffffff;
+    text-align: right;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin-right: 20px;
+}
 /* Not yet intergraded since its a want, not a need.  */
 
 /* .header-nav a:active {
