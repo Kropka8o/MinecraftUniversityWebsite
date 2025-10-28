@@ -30,6 +30,28 @@
     color: #000000;
 }
 
+header {
+    display: flex;
+    gap: 20px;
+}
+
+.top-main-content {
+    display: flex;
+    flex-direction: row;
+}
+
+#parkour-image {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border: 5px solid #008a0e;
+    border-radius: 10px;
+}
+
+.main-content {
+    margin-top: 100px;
+}
+
 .footer {
     background-color: #008a0e;
     color: #ffffff;
@@ -43,8 +65,8 @@
 .footer p {
     margin-right: 20px;
 }
-/* Not yet intergraded since its a want, not a need.  */
 
+/* Not yet intergraded since its a want, not a need.  */
 /* .header-nav a:active {
     background-color: #83f28f;
     color: #000000;
