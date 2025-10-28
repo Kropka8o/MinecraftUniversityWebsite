@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.header-nav {
+    background-color: #008a0e;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    border: #000000 2px solid;
+    background-color: #ffffff;
+}
+
+.header-nav a:hover {
+    background-color: #83f28f;
+    color: #000000;
+}
+
+/* Not yet intergraded since its a want, not a need.  */
+
+/* .header-nav a:active {
+    background-color: #83f28f;
+    color: #000000;
+} */
