@@ -67,6 +67,16 @@ header {
     margin-bottom: 20px;
 }
 
+.drop-image {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.drop-image img {
+    max-width: 80%;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
