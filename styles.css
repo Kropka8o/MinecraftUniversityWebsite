@@ -31,12 +31,28 @@
     color: #000000;
 }
 
-/* Not yet intergraded since its a want, not a need.  */
+header {
+    display: flex;
+    gap: 20px;
+}
 
-/* .header-nav a:active {
-    background-color: #83f28f;
-    color: #000000;
-} */
+.top-main-content {
+    display: flex;
+    flex-direction: row;
+}
+
+#parkour-image {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border: 5px solid #008a0e;
+    border-radius: 10px;
+}
+
+.main-content {
+    margin-top: 50px;
+}
+
 .drop-container {
     display: flex;
     justify-content: space-evenly;
@@ -62,16 +78,15 @@
     flex-direction: column;
     margin: 10px 0px;
     width: 100%;
-
 }
 
-form input, textarea {
+form input,
+textarea {
     width: 100%;
 }
 
 .form-group button {
     align-self: flex-end;
-    
 }
 
 .footer {
@@ -87,3 +102,9 @@ form input, textarea {
 .footer p {
     margin-right: 20px;
 }
+
+/* Not yet intergraded since its a want, not a need.  */
+/* .header-nav a:active {
+    background-color: #83f28f;
+    color: #000000;
+} */
