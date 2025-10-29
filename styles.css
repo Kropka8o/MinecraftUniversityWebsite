@@ -50,15 +50,9 @@ header {
 }
 
 .main-content {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
-/* Not yet intergraded since its a want, not a need.  */
-
-/* .header-nav a:active {
-    background-color: #83f28f;
-    color: #000000;
-} */
 .drop-container {
     display: flex;
     justify-content: space-evenly;
@@ -84,16 +78,15 @@ header {
     flex-direction: column;
     margin: 10px 0px;
     width: 100%;
-
 }
 
-form input, textarea {
+form input,
+textarea {
     width: 100%;
 }
 
 .form-group button {
     align-self: flex-end;
-    
 }
 
 .footer {

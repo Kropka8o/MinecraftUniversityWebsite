@@ -15,6 +15,10 @@
                 <h1>Parkour</h1>
                 <p>In this world you will find an awesome parkour course designed to challenge your skills and improve your gameplay. Parkours are a popular activity in Minecraft, allowing players to test their agility and precision. 
                 below you will find the information about this parkour.</p>
+                <br/>
+                 <p>Special thanks to Giang for making this map, we got this map from https://www.minecraftmaps.com/51039-parkour-through-squares</p>
+                <br/>
+                 <p>This user has an 3.8 rating and 11.1k downloads on MinecraftMaps.com. Besides this map, they have not been active on the site. Some may call it a one hit wonder!</p>
             </div>
         <img src="../img/parkour.jpg" alt="Parkour Course" id="parkour-image">
         </div>
