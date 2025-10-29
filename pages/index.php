@@ -7,15 +7,12 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <header>
-        <?php include '../header.php'; ?>
-    </header>
+    <?php include '../header.php'; ?>
     <main>
-    <h1>Welcome to Minecraft University</h1>
+        <div class="wrapper">
+        </div>
     </main>
-    <footer>
-        <?php include '../footer.php'; ?>
-    </footer>
+    <?php include '../footer.php'; ?>
 </body>
 </html>
 

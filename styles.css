@@ -5,7 +5,8 @@
 
 .wrapper {
     max-width: 70%;
-    margin: 0 auto;
+    margin: 20px auto;
+    /* margin-top: 20px; */
 }
 
 .header-nav {
@@ -50,6 +51,49 @@ header {
 
 .main-content {
     margin-top: 100px;
+}
+
+/* Not yet intergraded since its a want, not a need.  */
+
+/* .header-nav a:active {
+    background-color: #83f28f;
+    color: #000000;
+} */
+.drop-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+}
+
+.drop-text {
+    max-width: 60%;
+}
+
+.drop-text h1 {
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    width: 100%;
+
+}
+
+form input, textarea {
+    width: 100%;
+}
+
+.form-group button {
+    align-self: flex-end;
+    
 }
 
 .footer {
