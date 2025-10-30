@@ -20,7 +20,7 @@
                 <br/>
                  <p>This user has an 3.8 rating and 11.1k downloads on MinecraftMaps.com. Besides this map, they have not been active on the site. Some may call it a one hit wonder!</p>
             </div>
-        <img src="../img/parkour.jpg" alt="Parkour Course" id="parkour-image">
+        <img src="../media/parkour.jpg" alt="Parkour Course" id="parkour-image">
         </div>
         <div class="main-content">
         <h1>Parkour Through Squares</h1>
@@ -51,3 +51,14 @@ While the levels appear simple at first glance, they require tight movement, tim
     <?php include '../footer.php'; ?>
 </body>
 </html>
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+    $(function(){
+        $('a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active');
+            }
+        });
+    });
+</script>

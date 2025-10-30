@@ -19,7 +19,7 @@
                     <p>- Cheryl</p>
                 </div>
                 <div class="drop-image">
-                    <img src="../img/drop_vid.gif" alt="Drop showcase" />
+                    <img src="../media/drop_vid.gif" alt="Drop showcase" />
                 </div>
             </div>
         </div>
@@ -27,3 +27,14 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+    $(function(){
+        $('a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active');
+            }
+        });
+    });
+</script>

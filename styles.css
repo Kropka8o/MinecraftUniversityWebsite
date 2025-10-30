@@ -6,7 +6,6 @@
 .wrapper {
     max-width: 70%;
     margin: 20px auto;
-    /* margin-top: 20px; */
 }
 
 .header-nav {
@@ -31,9 +30,19 @@
     color: #000000;
 }
 
+a.active {
+    background-color: #83f28f;
+    color: #000000;
+}
+
 header {
     display: flex;
     gap: 20px;
+}
+
+body {
+    background-color:  #afa071;
+    font-size: large;
 }
 
 .top-main-content {
@@ -46,7 +55,6 @@ header {
     width: 100%;
     height: auto;
     border: 5px solid #008a0e;
-    border-radius: 10px;
 }
 
 .main-content {
@@ -75,6 +83,7 @@ header {
 
 .drop-image img {
     max-width: 80%;
+    border: 5px solid #008a0e;
 }
 
 .contact-form {
@@ -112,8 +121,3 @@ textarea {
 .footer p {
     margin-right: 20px;
 }
-
-/* .header-nav a:active {
-    background-color: #83f28f;
-    color: #000000;
-} */
