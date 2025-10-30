@@ -41,8 +41,47 @@ header {
 }
 
 body {
-    background-color:  #afa071;
+    background-color: #afa071;
     font-size: large;
+}
+
+.intro {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.intro p {
+    text-align: center;
+}
+
+.index-parkour a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.index-drop {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 220px 0px 220px;
+}
+
+.index-drop a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
 }
 
 .top-main-content {
