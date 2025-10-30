@@ -14,6 +14,7 @@
 - Indentation is 4 spaces, _not_ tabs (can be checked/changed in your editor).
 - Curly brackets are placed on the same line as the relevant statement.
 - _No_ trailing commas.
+- Comments are written to explain _why_ code has been written the way it is, _not_ to explain what it does.
 ### Naming conventions
 - Local variables follow camelCase, e.g.:
     - num.
