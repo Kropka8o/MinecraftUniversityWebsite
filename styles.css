@@ -73,7 +73,7 @@ body {
 .index-drop {
     display: flex;
     flex-direction: column;
-    padding: 0px 220px 0px 220px;
+    padding-top: 20px;
 }
 
 .index-drop a {

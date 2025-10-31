@@ -21,13 +21,14 @@
                 <p>In this world you will find an awesome parkour course designed to challenge your skills and improve your gameplay. 
                     Parkours are a popular activity in Minecraft, allowing players to test their agility and precision. Below you will find the information about this parkour.</p>
         </div>
-        </div>
         <div class="index-drop">
             <h2><a href="dropper.php">Dropper Course</a></h2>
             <p>The Dropper Course is an exhilarating Minecraft experience where players navigate through a challenging vertical drop. 
                 The objective is to skillfully maneuver through obstacles while falling, aiming to land safely in designated areas below. 
                 This course tests players' reflexes, timing, and precision as they descend through an intricate design and avoid hazards. 
                 With its thrilling gameplay and creative level design, the Drop Course offers an exciting adventure for Minecraft enthusiasts seeking a unique challenge.</p>
+        </div>
+        </div>
     </main>
     <?php include '../footer.php'; ?>
 </body>
